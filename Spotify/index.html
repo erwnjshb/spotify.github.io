@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/dbcd10496a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="playlist-head">
+        <img id="playlist-pic" src="https://i.pinimg.com/564x/bb/46/b2/bb46b226976bc11a66f113354553a4cf.jpg" alt="girl" >
+        <div>
+            <h6 id="modif">Public playlist</h6>
+            <h1 id="ply-name">raining eyes</h1>
+            <h6 id="desc">"im here for you still"</h6>
+            <h6 id="info"> <span id="song-num">49 songs,</span> about 2 hr 45 min</h6>
+        </div>
+    </div>
+    <div id="songs-container">
+        <div id="song-header">
+            <i class="fa-sharp fa-solid fa-circle-play" id="play" onclick="playButton()" style="color: #00ff4c;"></i>
+            <button id="enh">Enhance</button>
+        </div>
+        <div class="columns">
+            <div id="hashtag">#</div>
+            <div class="titles ihh">Title</div>
+            <div class="albums ihh">Album</div>
+            <div class="durations ihh">Duration</div>
+        </div>
+        <hr>
+        <div class="song1 song" id="spotify1" ondblclick="playspotify1()">
+            <div class="num">1</div>
+            <img src="https://i.scdn.co/image/ab67616d0000b273037555816718bbd733ebe635" class="cover">
+            <div class="title detail">
+                <div id="songname1">Clementine<br><span class="artist" id="art1">grentperez</span></div>
+            </div>
+            <div class="album detail">Clementine</div>
+            <div class="duration detail">4:05</div>
+        </div>
+        <div class="song2 song" id="spotify2" ondblclick="playspotify2()">
+            <div class="num">2</div>
+            <img src="https://i.scdn.co/image/ab67616d0000b27343722f278fb0e84c259a5f57" class="cover">
+            <div class="title detail">
+                <div id="songname2">Amtrak<br><span class="artist" id="art2">Los Retros</span></div>
+            </div>
+            <div class="album detail">Looking Back</div>
+            <div class="duration detail">2:57</div>
+        </div>
+        <div class="song3 song" id="spotify3" ondblclick="playspotify3()">
+            <div class="num">3</div>
+            <img src="https://i.scdn.co/image/ab67616d0000b273efbe96040319db682b438f11" alt="" class="cover">
+            <div class="title detail">
+                <div id="songname3">Here with me<br><span class="artist" id="art3">d4vd</span></div>
+            </div>
+            <div class="album detail">Here with me</div>
+            <div class="duration detail">4:02</div>
+        </div>
+        <div class="song4 song" id="spotify4" ondblclick="playspotify4()">
+            <div class="num">4</div>
+            <img src="https://lastfm.freetls.fastly.net/i/u/ar0/12f706c62bf69111cd7b33f1a34a592f.jpg" alt="" class="cover">
+            <div class="title detail">
+                <div id="songname4">Sleep Well<br><span class="artist" id="art4">d4vd</span></div>
+            </div>
+            <div class="album detail">Petals to Thorns</div>
+            <div class="duration detail">2:50</div>
+        </div>
+        <div class="song5 song" id="spotify5" ondblclick="playspotify5()">
+            <div class="num">5</div>
+            <img src="https://is5-ssl.mzstatic.com/image/thumb/Music112/v4/5e/85/ef/5e85ef2d-7710-4876-a83e-84ac613cef70/artwork.jpg/1200x1200bf-60.jpg" alt="" class="cover">
+            <div class="title detail">
+                <div id="songname5">Lusaw<br><span class="artist" id="art5">Tatin DC</span></div>
+            </div>
+            <div class="album detail">Lusaw</div>
+            <div class="duration detail">4:24</div>
+        </div>
+        <div class="song6 song" id="spotify6" ondblclick="playspotify6()">
+            <div class="num">6</div>
+            <img src="https://i.scdn.co/image/ab67616d0000b273a1f060b534d1d9c859acc73f" alt="" class="cover">
+            <div class="title detail">
+                <div id="songname6">Someone To Spend Time With<br><span class="artist" id="art5">Los Retros</span></div>
+            </div>
+            <div class="album detail">Someone To Spend Time With</div>
+            <div class="duration detail">2:54</div>
+        </div>
+        <div class="song7 song" id="spotify7" ondblclick="playspotify7()">
+            <div class="num">7</div>
+            <img src="https://lastfm.freetls.fastly.net/i/u/ar0/70a21cee4f08835b20e7684a4042875a.jpg" alt="" class="cover">
+            <div class="title detail">
+                <div id="songname7">Romantic Homicide<br><span class="artist" id="art5">d4vd</span></div>
+            </div>
+            <div class="album detail">Romantic Homicide</div>
+            <div class="duration detail">2:13</div>
+        </div>
+        
+    </div>
+
+    
+</body>
+</html>
